@@ -100,3 +100,36 @@ footer { color: #bfd4e1; background: #0b2f49; }
   .citation-panel { padding: 27px 22px; }
   .footer-inner { min-height: 110px; align-items: flex-start; justify-content: center; flex-direction: column; padding: 20px 0; }
 }
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paper-button {
+  display: inline-block;
+  padding: 11px 18px;
+  border-radius: 7px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.paper-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.paper-button.primary {
+  background: #153b67;
+  color: #ffffff;
+}
+
+.paper-button.secondary {
+  border: 1px solid #153b67;
+  color: #153b67;
+  background: #ffffff;
+}
