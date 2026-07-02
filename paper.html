@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="" />
+  <title>From Implicit Guarantees to Fiscal Reallocation: A City-Level Stress Test of Full LGFV Exit in China</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+
+  <style>
+    body{max-width:980px; font-family: Georgia, "Times New Roman", serif; line-height:1.75;}
+    h1,h2,h3{line-height:1.25;}
+    figure{margin:2.25rem auto;}
+    figure embed{width:100%; min-height:420px; border:1px solid #dde5eb;}
+    figcaption{font-size:.93rem;color:#435467;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">From Implicit Guarantees to Fiscal Reallocation:<br />
+A City-Level Stress Test of Full LGFV Exit in China</h1>
+<p class="author"></p>
+<div class="abstract">
+<div class="abstract-title">Abstract</div>
+<p>China’s program to separate local government financing vehicles
+(LGFVs) from government financing raises a forward-looking fiscal
+question: where would adjustment occur if implicit guarantees no longer
+supported rollover? This paper develops a transparent city-level stress
+test rather than an ex post causal evaluation. We combine a 2015–2023
+panel for 337 prefecture-level cities with a public-LGFV-bond maturity
+schedule for 2025–2028. The exercise maps a full-exit refinancing shock
+into revenue composition, protected expenditure, budget buffers, and
+residual restructuring needs. In 2025, public LGFV bond maturities total
+RMB 3.71 trillion. The simulated financing gap ranges from RMB 1.04
+trillion under orderly exit to RMB 2.51 trillion under strict exit. The
+composition of adjustment is more revealing than the aggregate gap:
+relative to orderly exit, strict exit lowers simulated tax revenue by
+3.0 percent, government-fund revenue by 11.5 percent, and land-transfer
+revenue by 17.0 percent. The largest absolute gaps occur in high-debt,
+economically large cities, while the most fragile configuration is high
+land dependence combined with weak transfer buffers. City profiles show
+why aggregate regional averages are insufficient: Chongqing faces the
+largest western illustrative maturity wall but is fully absorbed by
+modeled buffers, whereas Huzhou and Kunming retain positive residual
+restructuring needs under strict exit. The results imply that LGFV exit
+is primarily a problem of fiscal reallocation, land-finance exposure,
+and differentiated restructuring capacity rather than a uniform regional
+collapse.</p>
+</div>
+</header>
+<div class="keywords">
+<p>Local government financing vehicles; implicit guarantees; local
+public finance; land finance; fiscal stress testing; China</p>
+</div>
+<h1 id="introduction">Introduction</h1>
+<p>Local government financing vehicles (LGFVs) have long linked China’s
+local fiscal system to infrastructure investment, land development, and
+bank and bond finance. Their role is difficult to separate from the
+underlying fiscal architecture: a city with limited own-source revenue
+can finance public-investment activity through an LGFV, while land,
+expected fiscal transfers, and the perceived support of the local state
+help sustain the vehicle’s creditworthiness. This arrangement has
+expanded investment capacity, but it has also blurred the boundary
+between corporate debt and public contingent liabilities [1-4]. The
+policy direction is to contain new hidden debt, reduce the role of
+implicit guarantees, and move financing platforms toward market-oriented
+operation. In parallel, debt-replacement and refinancing tools have been
+used to lower near-term rollover pressure. These developments motivate a
+question that is fundamentally forward-looking rather than
+retrospective: <em>if LGFVs no longer perform a government-financing
+function, how would the resulting refinancing constraint be absorbed by
+local fiscal systems?</em> The issue is not simply whether a city has a
+large LGFV debt stock. It is whether a city can shift from an
+implicit-guarantee financing model toward a system in which debt
+service, project finance, transfers, fiscal buffers, and expenditure
+priorities are more clearly separated.</p>
+<p>The question cannot be answered by equating LGFV debt with statutory
+local-government debt. LGFVs are legally distinct entities, many debts
+are supported by project cash flow or restructuring, and the observed
+fiscal response may involve debt extension, asset operations, market
+refinancing, transfers, or investment reprioritization. Nor can the
+question be settled by ranking cities using debt stocks alone. A city
+may have a large LGFV balance sheet but also a broad tax base, deep
+local finance, and assets that facilitate restructuring. Another city
+may have a smaller debt stock but a narrow revenue base, high dependence
+on land-related revenue, and few external buffers. The relevant object
+is therefore a <em>city-specific fiscal absorption problem</em>. This
+paper develops a city-level stress test for that problem. It is
+deliberately not a difference-in-differences study of a completed reform
+[5-9]. A nationwide full exit has not been observed over a sufficiently
+long post-policy horizon, and the exercise does not claim to identify
+the causal effect of an implemented policy. Instead, we combine
+historical fiscal data with a forward maturity schedule for public LGFV
+bonds and ask how different, explicit refinancing assumptions map into
+fiscal resources and protected expenditures. The approach is closer to a
+public-finance stress test: it provides conditional, scenario-dependent
+estimates that make the assumed channels visible.</p>
+<p>The paper makes four contributions. First, it harmonizes a city-year
+panel for 337 prefecture-level and above cities from 2015 through 2023,
+combining fiscal revenue and expenditure items, government-fund and
+land-transfer revenue, explicit government debt, LGFV debt,
+macroeconomic controls, and a deduplicated public-bond maturity schedule
+for 2025–2028. Second, it traces the simulated shock through particular
+fiscal items—tax revenue, government-fund revenue, land-transfer
+revenue, transfers, rigid expenditure, flexible expenditure, debt
+interest, and a residual restructuring need—rather than producing a
+single risk score. Third, it distinguishes debt scale from fiscal
+fragility using regional groups, coastal status, land and transfer
+dependence, and four fiscal–debt archetypes. Fourth, it brings the
+national exercise down to the city level through illustrative profiles
+in every major region. The headline result is not a prediction of
+generalized fiscal collapse. Public LGFV bond maturities peak at RMB
+3.71 trillion in 2025 and fall thereafter. Depending on the assumed
+market refinancing rate, the 2025 public-bond financing gap ranges from
+RMB 1.04 trillion to RMB 2.51 trillion. Under the strict scenario, the
+stress-test hierarchy allocates most of the gap to modeled budget
+buffers and limited support, leaving a residual of RMB 0.058 trillion,
+or 2.3 percent of the aggregate gap. This outcome is conditional on the
+assumed buffers and cannot be read as evidence that non-bond LGFV
+liabilities are safe. Its substantive implication is sharper: when basic
+services and debt interest are protected, the first-order fiscal
+incidence of full LGFV exit is concentrated in government-fund and
+land-finance channels, not uniformly across budget items [10-16].</p>
+<p>The contribution summary of our paper is as follows:</p>
+<ul>
+<li><p>We develop a transparent city-level fiscal stress-test framework
+for examining the hypothetical full exit of LGFVs from government
+financing. Rather than treating LGFV debt as an immediate fiscal
+liability or claiming a causal policy effect, the framework maps
+observed public-bond maturities into scenario-specific refinancing gaps
+and allocates these gaps across budget buffers, limited upper-level
+support, flexible expenditure adjustment, and residual restructuring
+needs.</p></li>
+<li><p>We construct a harmonized city-level fiscal–debt dataset covering
+337 prefecture-level and above cities from 2015 to 2023, and combine it
+with a deduplicated public LGFV bond maturity schedule for 2025–2028.
+This integrated dataset allows us to jointly examine fiscal revenue
+composition, land-finance dependence, transfer capacity, debt exposure,
+and the observable timing of refinancing pressure.</p></li>
+<li><p>We show that the consequences of LGFV exit are primarily a
+problem of differentiated fiscal reallocation rather than uniform fiscal
+collapse. The simulated pressure is concentrated in government-fund and
+land-transfer revenue channels, while fiscal vulnerability depends not
+only on maturity scale but also on the joint configuration of land
+dependence, transfer buffers, refinancing capacity, and residual fiscal
+space. These results imply that transition policies should distinguish
+large-scale rollover needs from genuinely fragile fiscal configurations
+and target support toward residual restructuring pressure rather than
+debt scale alone.</p></li>
+</ul>
+<h1 id="institutional-setting-and-conceptual-framework">Institutional
+setting and conceptual framework</h1>
+<h2 id="lgfvs-implicit-support-and-fiscal-reallocation">LGFVs, implicit
+support, and fiscal reallocation</h2>
+<p>China’s local fiscal system combines substantial expenditure
+responsibilities with uneven own-source revenue. LGFVs emerged as a
+mechanism through which local governments could finance
+public-investment projects and land development outside conventional
+budget constraints. The underlying credit arrangement has often rested
+on a combination of government ownership, asset injections, land-related
+revenues, bank relationships, and expectations of support. The
+literature emphasizes both the developmental role of this system and the
+risks created by contingent fiscal exposure.</p>
+<p>A full separation of LGFVs from government financing changes the
+rollover problem but does not mechanically convert all vehicle debt into
+budget expenditure. For a city
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>
+in year
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>,
+the public-bond refinancing gap under scenario
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>
+is
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>a</mi><msubsup><mi>p</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>=</mo><mi>M</mi><mi>a</mi><mi>t</mi><mi>u</mi><mi>r</mi><mi>i</mi><mi>t</mi><msub><mi>y</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub><mrow><mo stretchy="true" form="prefix">(</mo><mn>1</mn><mo>−</mo><msubsup><mi>ρ</mi><mi>i</mi><mi>s</mi></msubsup><mo stretchy="true" form="postfix">)</mo></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+Gap_{it}^{s}=Maturity_{it}\left(1-\rho_i^s\right),
+\label{eq:gap}
+\end{equation}</annotation></semantics></math> where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>a</mi><mi>t</mi><mi>u</mi><mi>r</mi><mi>i</mi><mi>t</mi><msub><mi>y</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">Maturity_{it}</annotation></semantics></math>
+is the principal of publicly observed LGFV bonds maturing in that year
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mi>ρ</mi><mi>i</mi><mi>s</mi></msubsup><annotation encoding="application/x-tex">\rho_i^s</annotation></semantics></math>
+is the scenario-specific market refinancing rate. We intentionally
+restrict
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>a</mi><mi>t</mi><mi>u</mi><mi>r</mi><mi>i</mi><mi>t</mi><msub><mi>y</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub></mrow><annotation encoding="application/x-tex">Maturity_{it}</annotation></semantics></math>
+to public bonds with observed maturity dates. Bank loans, nonstandard
+credit, supplier arrears, and other obligations are not treated as known
+annual maturities. The measured maturity wall is therefore a lower-bound
+cash-flow challenge, not an estimate of all contingent obligations.</p>
+<p>The gap is allocated through a conservative fiscal absorption
+hierarchy:
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>a</mi><msubsup><mi>p</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>=</mo><msubsup><mi>B</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>+</mo><msubsup><mi>T</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>+</mo><msubsup><mi>F</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>+</mo><msubsup><mi>R</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+Gap_{it}^{s}=B_{it}^{s}+T_{it}^{s}+F_{it}^{s}+R_{it}^{s},
+\label{eq:waterfall}
+\end{equation}</annotation></semantics></math> where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>B</mi><annotation encoding="application/x-tex">B</annotation></semantics></math>
+is available budget-buffer absorption,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>T</mi><annotation encoding="application/x-tex">T</annotation></semantics></math>
+is limited upper-level support,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>F</mi><annotation encoding="application/x-tex">F</annotation></semantics></math>
+is flexible-expenditure adjustment, and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math>
+is the residual restructuring need.
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math>
+is not an assumed default. It is the portion that the scenario cannot
+absorb through the first three channels and would therefore require
+restructuring, extension, asset operations, or other arrangements. The
+ordering is intentionally restrictive: the model protects a narrow core
+of education, social security and employment, health, general public
+services, and debt-interest expenditure before allowing flexible project
+expenditure to adjust.</p>
+<p>This structure yields three empirical implications. First, the
+revenue side should be particularly exposed where LGFV activity, land
+development, and government-fund finance are tightly connected.
+Land-transfer revenue and government-fund revenue should respond more
+strongly to stress intensity than tax revenue. Second, debt maturity
+scale determines the size of the immediate challenge, while fiscal
+self-sufficiency, transfers, land dependence, and financial depth
+determine the city’s ability to absorb it. Third, the most informative
+unit of analysis is not an administrative region alone but a fiscal
+configuration: high debt may be manageable when buffers are large, while
+a smaller maturity schedule can be difficult where revenue is narrow and
+financing capacity is limited.</p>
+<h2 id="historical-calibration-and-the-scope-of-inference">Historical
+calibration and the scope of inference</h2>
+<p>We use historical city-level co-movements to discipline the stress
+test, not to claim causal elasticities. For fiscal outcome
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mi>Y</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>k</mi></msubsup><annotation encoding="application/x-tex">Y^k_{it}</annotation></semantics></math>,
+we estimate a dynamic reduced-form relationship of the form
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><msubsup><mi>Y</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>k</mi></msubsup><mo>=</mo><msub><mi>β</mi><mi>k</mi></msub><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mi>L</mi><mi>G</mi><mi>F</mi><mi>V</mi><mi>D</mi><mi>e</mi><mi>b</mi><msub><mi>t</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub><mo>+</mo><msub><mi>γ</mi><mi>k</mi></msub><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mi>G</mi><mi>o</mi><mi>v</mi><mi>D</mi><mi>e</mi><mi>b</mi><msub><mi>t</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub><mo>+</mo><msub><mi>δ</mi><mi>k</mi></msub><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mi>G</mi><mi>D</mi><msub><mi>P</mi><mrow><mi>i</mi><mi>t</mi></mrow></msub><mo>+</mo><msubsup><mi>u</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>k</mi></msubsup><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\Delta \log Y^k_{it}=\beta_k\Delta\log LGFVDebt_{it}+\gamma_k\Delta\log GovDebt_{it}+\delta_k\Delta\log GDP_{it}+u_{it}^k.
+\label{eq:historical}
+\end{equation}</annotation></semantics></math> The estimates are
+descriptive. They summarize how fiscal items historically move with
+changes in LGFV debt, explicit government debt, and local output within
+cities. Their role is to indicate which fiscal margins were historically
+most closely related to LGFV expansion and contraction, and to
+discipline the relative size of scenario shocks.</p>
+<p>Table <a href="#tab:calibration" data-reference-type="ref"
+data-reference="tab:calibration">1</a> reports the core coefficients.
+The historical association is stronger for government-fund and
+land-transfer revenue than for general-budget revenue: the estimated
+LGFV-debt elasticities are 0.137 and 0.123 for the former two outcomes,
+compared with
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>0.006</mn></mrow><annotation encoding="application/x-tex">-0.006</annotation></semantics></math>
+for general-budget revenue. Flexible expenditure has a small positive
+association of 0.016. These regressions have low explanatory power,
+which is precisely why we do not extrapolate them as a structural model
+or as a causal policy effect. They nevertheless motivate a scenario
+design in which land and fund revenues receive larger shocks than tax
+revenue, and in which expenditure adjustment is treated as a constrained
+absorption channel rather than a mechanical proportional response.</p>
+<div id="tab:calibration">
+<table>
+<caption>Historical fiscal–financing calibration, first
+differences</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Outcome</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mi>L</mi><mi>G</mi><mi>F</mi><mi>V</mi></mrow><annotation encoding="application/x-tex">\Delta\log LGFV</annotation></semantics></math>
+debt</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi mathvariant="normal">log</mi></mrow><annotation encoding="application/x-tex">\Delta\log</annotation></semantics></math>
+gov. debt</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mrow><mi mathvariant="normal">log</mi><mo>&#8289;</mo></mrow><mi>G</mi><mi>D</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">\Delta\log GDP</annotation></semantics></math></th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">General-budget revenue</td>
+<td style="text-align: right;">-0.006</td>
+<td style="text-align: right;">0.040</td>
+<td style="text-align: right;">0.303</td>
+<td style="text-align: right;">2,688</td>
+</tr>
+<tr>
+<td style="text-align: left;">General-budget expenditure</td>
+<td style="text-align: right;">0.023</td>
+<td style="text-align: right;">-0.013</td>
+<td style="text-align: right;">0.094</td>
+<td style="text-align: right;">2,688</td>
+</tr>
+<tr>
+<td style="text-align: left;">Government-fund revenue</td>
+<td style="text-align: right;">0.137</td>
+<td style="text-align: right;">-0.093</td>
+<td style="text-align: right;">0.099</td>
+<td style="text-align: right;">2,668</td>
+</tr>
+<tr>
+<td style="text-align: left;">Land-transfer revenue</td>
+<td style="text-align: right;">0.123</td>
+<td style="text-align: right;">0.022</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">2,636</td>
+</tr>
+<tr>
+<td style="text-align: left;">Flexible expenditure</td>
+<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">-0.038</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">2,688</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Each row is a city-level first-difference OLS
+regression using the 2015–2023 panel. The table is descriptive:
+coefficients are used to discipline relative scenario sensitivity and
+are not causal estimates of a completed LGFV-exit policy. The
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>R</mi><mn>2</mn></msup><annotation encoding="application/x-tex">R^2</annotation></semantics></math>
+values are low in the underlying regressions, reinforcing this
+interpretation.</p>
+</div>
+<h1 id="data-measurement-and-predictive-discipline">Data, measurement,
+and predictive discipline</h1>
+<h2 id="city-fiscal-panel-and-public-bond-maturity-schedule">City fiscal
+panel and public-bond maturity schedule</h2>
+<p>The main panel covers 337 cities from 2015 through 2023, yielding
+3,033 city-year observations. It merges cleaned annual fiscal accounts
+with debt, macroeconomic, real-estate, and financial variables. The
+fiscal module distinguishes general-budget revenue, tax revenue,
+government-fund revenue, land-transfer revenue, and a transfer-revenue
+proxy. It also distinguishes protected public-service items—education,
+social security and employment, health, and a limited
+general-public-service component—from more adjustable
+infrastructure-related expenditure on urban and rural communities,
+transport, agriculture and water, and energy and environment.</p>
+<p>Table <a href="#tab:data" data-reference-type="ref"
+data-reference="tab:data">2</a> summarizes the main variables. The mean
+city has RMB 2,913 billion of GDP, RMB 146 billion of general-budget
+revenue, RMB 500 billion of general-budget expenditure, and RMB 958
+billion of LGFV interest-bearing debt. The median is substantially lower
+than the mean for all scale variables, emphasizing why national
+aggregates conceal city heterogeneity. We use public-bond data to
+construct yearly issuance, maturity, coupon, and maturity concentration.
+Public bond maturity therefore measures the observable rollover
+challenge rather than total LGFV liabilities.</p>
+<div id="tab:data">
+<table>
+<caption>Selected variables in the city-year panel, 2015–2023</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Variable</th>
+<th style="text-align: right;">Mean</th>
+<th style="text-align: right;">Median</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">p75</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">GDP</td>
+<td style="text-align: right;">2913.0</td>
+<td style="text-align: right;">1557.4</td>
+<td style="text-align: right;">824.9</td>
+<td style="text-align: right;">3057.2</td>
+</tr>
+<tr>
+<td style="text-align: left;">General-budget revenue</td>
+<td style="text-align: right;">146.4</td>
+<td style="text-align: right;">32.6</td>
+<td style="text-align: right;">14.8</td>
+<td style="text-align: right;">91.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">General-budget expenditure</td>
+<td style="text-align: right;">500.6</td>
+<td style="text-align: right;">339.4</td>
+<td style="text-align: right;">223.5</td>
+<td style="text-align: right;">515.5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Land-transfer revenue</td>
+<td style="text-align: right;">129.0</td>
+<td style="text-align: right;">37.7</td>
+<td style="text-align: right;">9.5</td>
+<td style="text-align: right;">105.5</td>
+</tr>
+<tr>
+<td style="text-align: left;">LGFV interest-bearing debt</td>
+<td style="text-align: right;">957.7</td>
+<td style="text-align: right;">227.1</td>
+<td style="text-align: right;">77.1</td>
+<td style="text-align: right;">701.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fiscal self-sufficiency</td>
+<td style="text-align: right;">0.263</td>
+<td style="text-align: right;">0.095</td>
+<td style="text-align: right;">0.050</td>
+<td style="text-align: right;">0.227</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Monetary variables are RMB 100 million. Fiscal
+self-sufficiency is general-budget revenue divided by general-budget
+expenditure. The panel contains 3,033 city-year observations for 337
+cities. Variable construction follows the cleaned fiscal, debt, and bond
+files in the replication package.</p>
+</div>
+<p>The data construction preserves two distinctions central for
+interpretation. First, LGFV interest-bearing debt and statutory
+local-government debt are not added together mechanically. The former is
+treated as a contingent fiscal exposure and the latter as an explicit
+fiscal constraint. Second, public-bond maturities are used to construct
+annual rollover needs, while total LGFV debt is used for cross-city
+exposure classification. Some fiscal items are harmonized proxies:
+non-tax revenue is constructed as general-budget revenue less tax
+revenue when a directly reported item is unavailable, and the transfer
+proxy is the positive difference between general-budget expenditure and
+revenue. Results should therefore be interpreted as a harmonized fiscal
+stress map, not an audited reconstruction of every local budget.</p>
+<h2
+id="fiscal-capacity-city-types-and-a-residual-fiscal-space-proxy">Fiscal
+capacity, city types, and a residual fiscal-space proxy</h2>
+<p>We classify cities along two transparent dimensions. LGFV exposure is
+total LGFV interest-bearing debt relative to GDP. Fiscal capacity
+increases with fiscal self-sufficiency and decreases with fiscal-gap and
+transfer dependence. Splitting both dimensions at their pre-stress
+medians creates four archetypes: strong fiscal/low debt (A), strong
+fiscal/high debt (B), weak fiscal/low debt (C), and weak fiscal/high
+debt (D). We additionally classify cities by official four-region group,
+coastal status, land dependence, transfer dependence, population growth,
+and maturity concentration.</p>
+<p>We also construct a deliberately conservative proxy for non-core
+discretionary fiscal space:
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mi>a</mi><mi>p</mi><mi>a</mi><mi>c</mi><mi>i</mi><mi>t</mi><msubsup><mi>y</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>=</mo><mrow><mi mathvariant="normal">max</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">{</mo><mn>0</mn><mo>,</mo><mspace width="0.167em"></mspace><mi>R</mi><mi>e</mi><mi>s</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>c</mi><mi>e</mi><msubsup><mi>s</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo>−</mo><mi>C</mi><mi>o</mi><mi>r</mi><mi>e</mi><mi>F</mi><mi>l</mi><mi>o</mi><mi>o</mi><msubsup><mi>r</mi><mrow><mi>i</mi><mi>t</mi></mrow><mi>s</mi></msubsup><mo stretchy="false" form="postfix">}</mo><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+Capacity_{it}^{s}=\max\{0,\,Resources_{it}^{s}-CoreFloor_{it}^{s}\}.
+\label{eq:capacity}
+\end{equation}</annotation></semantics></math> Resources are restricted
+to own general-budget revenue and non-earmarked transfer resources where
+observable. The core floor includes protected public-service spending
+and debt-interest expenditure. This measure does <em>not</em> identify
+salaries, bonuses, allowances, or any specific employee benefit. It is a
+residual-budget proxy: the potential fiscal room remaining after a
+narrow set of protected obligations. Actual compensation and benefits
+depend on economic classifications, earmarking, staffing, departmental
+obligations, and legal rules that are not observed here.</p>
+<p>The distinction matters for the final part of the analysis. A city
+with positive modeled residual capacity should not be interpreted as
+having a verified capacity to provide discretionary personnel
+compensation. The indicator only means that the modeled LGFV shock does
+not exhaust the narrow fiscal-resource measure after the selected
+protected floor. Conversely, a zero indicator does not establish that
+basic payroll or benefits cannot be met. It simply identifies a
+configuration in which the stress test exhausts the specified budget
+margin.</p>
+<h2 id="model-validation">Model validation</h2>
+<p>Because the exercise is predictive rather than causal, predictive
+discipline is important. We compare rolling forecasts using a simple
+dynamic panel benchmark and machine-learning alternatives during model
+development. The paper retains the transparent dynamic specification as
+the primary framework and uses out-of-sample error as a limitation
+check, not as a basis for selecting an opaque black box. Table <a
+href="#tab:oos" data-reference-type="ref" data-reference="tab:oos">3</a>
+reports one-year-ahead rolling MAPE for 2023. GDP and general-budget
+expenditure are relatively predictable, at 4.2 percent and 6.4 percent,
+respectively. General-budget revenue, government-fund revenue, and
+land-transfer revenue are much less predictable, with MAPE between 61.7
+and 99.4 percent.</p>
+<p>This pattern is substantively informative. The most policy-relevant
+revenue margins are also the most volatile and difficult to forecast.
+Accordingly, the paper does not present the land-revenue projection as a
+precise point forecast. Instead, it uses scenario bands and emphasizes
+the ordering across channels: land and government-fund revenue are
+modeled as more exposed than tax revenue, while basic public-service
+expenditure is protected by construction. The city results should
+therefore be interpreted as relative fiscal pressure under transparent
+assumptions, not as an annual budget forecast.</p>
+<div id="tab:oos">
+<table>
+<caption>Rolling out-of-sample forecast performance for 2023</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Forecasted item</th>
+<th style="text-align: right;">2023 rolling MAPE</th>
+<th style="text-align: right;">Cities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">GDP</td>
+<td style="text-align: right;">4.2%</td>
+<td style="text-align: right;">337</td>
+</tr>
+<tr>
+<td style="text-align: left;">General-budget revenue</td>
+<td style="text-align: right;">61.7%</td>
+<td style="text-align: right;">337</td>
+</tr>
+<tr>
+<td style="text-align: left;">General-budget expenditure</td>
+<td style="text-align: right;">6.4%</td>
+<td style="text-align: right;">337</td>
+</tr>
+<tr>
+<td style="text-align: left;">Government-fund revenue</td>
+<td style="text-align: right;">63.8%</td>
+<td style="text-align: right;">336</td>
+</tr>
+<tr>
+<td style="text-align: left;">Land-transfer revenue</td>
+<td style="text-align: right;">99.4%</td>
+<td style="text-align: right;">334</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> MAPE is based on rolling forecasts for the final
+observed year. The table documents forecast difficulty, especially for
+land-linked revenue, and motivates reporting scenarios rather than point
+forecasts as policy predictions.</p>
+</div>
+<h1 id="stress-scenarios-and-fiscal-accounting">Stress scenarios and
+fiscal accounting</h1>
+<p>We model four full-exit scenarios. The orderly-exit scenario uses a
+75 percent baseline market refinancing rate; the benchmark exit uses 55
+percent; the strict exit uses 35 percent; and the support-calibrated
+scenario begins at 50 percent and varies with fiscal capacity and debt
+exposure. Revenue-side shocks are deliberately larger for land and
+government-fund revenue than for tax revenue. Across orderly, benchmark,
+and strict exits, tax-revenue shocks are
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">-1</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">-2</annotation></semantics></math>,
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">-4</annotation></semantics></math>
+percent; government-fund shocks are
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">-4</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>8</mn></mrow><annotation encoding="application/x-tex">-8</annotation></semantics></math>,
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>15</mn></mrow><annotation encoding="application/x-tex">-15</annotation></semantics></math>
+percent; and land-transfer shocks are
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>6</mn></mrow><annotation encoding="application/x-tex">-6</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>12</mn></mrow><annotation encoding="application/x-tex">-12</annotation></semantics></math>,
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>22</mn></mrow><annotation encoding="application/x-tex">-22</annotation></semantics></math>
+percent, respectively. Non-tax revenue is allowed a small positive
+offset, reflecting the possibility of administrative and non-tax
+adjustment; this is a stress-accounting assumption, not a welfare
+claim.</p>
+<p>The scenario matrix does not assume that every city has the same
+refinancing probability. A city’s scenario refinancing rate is anchored
+to its historical issuance-to-maturity experience, then adjusted by
+fiscal capacity, LGFV exposure, transfer dependence, and observed
+financial depth. The design does not estimate a true market probability
+of refinancing. It operationalizes a comparative question: how much more
+of the observable maturity wall must be absorbed elsewhere when market
+rollover is progressively less available?</p>
+<p>Table <a href="#tab:scenarios" data-reference-type="ref"
+data-reference="tab:scenarios">4</a> reports 2025 aggregate
+implications. Because scenarios differ in refinancing and
+fiscal-resource assumptions, the table should be read horizontally as a
+sensitivity analysis. The orderly-exit scenario provides the least
+severe full-exit benchmark; the strict exit is intentionally adverse.
+The support-calibrated scenario tests whether limited differentiated
+support alters the composition of adjustment.</p>
+<div id="tab:scenarios">
+<table>
+<caption>2025 aggregate results across full-exit scenarios</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Scenario</th>
+<th style="text-align: right;">Gap</th>
+<th style="text-align: right;">Residual</th>
+<th style="text-align: right;">Cliff cities</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math>
+Tax</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math>
+Fund</th>
+<th
+style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math>
+Land</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Orderly exit</td>
+<td style="text-align: right;">1.04</td>
+<td style="text-align: right;">0.017</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">0.0%</td>
+<td style="text-align: right;">0.0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Benchmark exit</td>
+<td style="text-align: right;">1.77</td>
+<td style="text-align: right;">0.029</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1.0%</td>
+<td style="text-align: right;">-4.2%</td>
+<td style="text-align: right;">-6.4%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Support-calibrated exit</td>
+<td style="text-align: right;">1.91</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1.5%</td>
+<td style="text-align: right;">-6.2%</td>
+<td style="text-align: right;">-9.6%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Strict exit</td>
+<td style="text-align: right;">2.51</td>
+<td style="text-align: right;">0.058</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3.0%</td>
+<td style="text-align: right;">-11.5%</td>
+<td style="text-align: right;">-17.0%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Gap and residual are RMB trillion. Revenue changes
+are relative to the orderly-exit scenario. “Cliff cities” are cities for
+which the simulated financing gap exceeds modeled flexible expenditure
+plus available budget-buffer capacity. This is a stress-test threshold,
+not a forecast of default.</p>
+</div>
+<h1 id="aggregate-results">Aggregate results</h1>
+<h2 id="the-maturity-wall-and-the-aggregate-financing-gap">The maturity
+wall and the aggregate financing gap</h2>
+<p>Figure <a href="#fig:maturity-gap" data-reference-type="ref"
+data-reference="fig:maturity-gap">1</a> shows a pronounced but declining
+public-bond maturity wall. Public LGFV bond maturities total RMB 3.71
+trillion in 2025, then fall to RMB 2.75 trillion in 2026, RMB 2.34
+trillion in 2027, and RMB 1.49 trillion in 2028. This declining profile
+does not imply that LGFV risk disappears. It simply indicates that the
+publicly observed bond component creates its largest near-term cash-flow
+challenge in 2025. The profile also reinforces a practical point: a
+transition policy that is administratively gradual can still confront a
+sharp near-term refinancing concentration.</p>
+<p>The simulated financing gap mirrors the maturity wall. Figure <a
+href="#fig:maturity-gap" data-reference-type="ref"
+data-reference="fig:maturity-gap">1</a> shows that the 2025 gap ranges
+from RMB 1.04 trillion in orderly exit to RMB 2.51 trillion in strict
+exit. The benchmark exit produces a RMB 1.77 trillion gap. By 2028, the
+corresponding range narrows to RMB 0.41–1.00 trillion. This result is
+not a prediction of realized losses. It is a transparent answer to a
+narrower question: conditional on observed public maturities and
+scenario-specific refinancing rates, how much refinancing must be
+replaced by other fiscal or restructuring channels?</p>
+<figure id="fig:maturity-gap" data-latex-placement="t">
+<div class="minipage">
+<p><em>Notes:</em> Amounts are aggregated across the 337 cities and
+reported in RMB trillion. The gap depends on each scenario’s market
+refinancing rate and is based on publicly observed bond maturities
+only.</p>
+</div>
+<figcaption>Public LGFV bond maturities and simulated financing gaps,
+2025–2028</figcaption>
+</figure>
+<h2 id="the-revenue-incidence-is-concentrated-in-land-finance">The
+revenue incidence is concentrated in land finance</h2>
+<p>The first substantive finding is compositional. Under strict exit,
+tax revenue in 2025 is 3.0 percent below the orderly-exit benchmark,
+government-fund revenue is 11.5 percent lower, and land-transfer revenue
+is 17.0 percent lower. This ranking is consistent with the historical
+calibration: land and fund revenues are more closely tied to the
+investment and development system through which LGFVs have historically
+operated. General-budget revenue is less directly exposed in the
+scenario design because it reflects a broader tax base and because the
+model does not assume that all local economic activity falls
+proportionately with project finance.</p>
+<p>This distinction matters for fiscal adjustment. A city can maintain
+an apparently stable general-budget revenue path yet face a
+substantially weaker government-fund position. The latter has
+consequences for urban construction, housing, land preparation, and
+other project-linked activities even where basic current expenditure is
+protected. Thus, a stress test centered only on general-budget income
+would understate the importance of land finance; a stress test centered
+only on debt stocks would miss the revenue channel through which
+investment-oriented fiscal adjustment is likely to occur.</p>
+<figure id="fig:revenue-hetero" data-latex-placement="t">
+<div class="minipage">
+<p><em>Notes:</em> Panel (a) reports percentage changes relative to
+orderly exit. Panel (b) reports mean city-level financing gaps in RMB
+100 million. In the land/transfer labels, L denotes land dependence and
+T denotes transfer dependence.</p>
+</div>
+<figcaption>The fiscal incidence of full LGFV exit</figcaption>
+</figure>
+<h2 id="regional-patterns-scale-is-not-fragility">Regional patterns:
+scale is not fragility</h2>
+<p>Table <a href="#tab:heterogeneity" data-reference-type="ref"
+data-reference="tab:heterogeneity">5</a> reports strict-exit results for
+2025. Eastern cities have the largest average financing gap in level
+terms, followed by central, western, and northeastern cities. Coastal
+cities similarly account for a disproportionate share of aggregate
+maturities because they include large issuers and cities with large debt
+stocks. This pattern is a scale result, not a judgment that eastern or
+coastal cities are fiscally weaker. Their income bases, financial depth,
+and modeled buffers can also be larger.</p>
+<p>The four-archetype classification makes the point more precisely.
+Type B cities—strong fiscal capacity but high LGFV exposure—face the
+largest average strict-exit gap, while type D cities—weak fiscal
+capacity and high LGFV exposure—have smaller average absolute gaps but
+potentially weaker absorption capacity. The group that combines high
+land dependence with low transfer dependence is particularly exposed:
+its average 2025 strict-exit financing gap is RMB 161.2 billion, with a
+mean residual gap of RMB 10.7 billion and a 2.5 percent fiscal-cliff
+share. The interpretation is not that transfer dependence is
+intrinsically good or that land finance is intrinsically bad. Rather, a
+city that relies heavily on land-related resources but cannot replace a
+shock through stable transfers has fewer budgetary margins when
+property-linked revenue weakens.</p>
+<div id="tab:heterogeneity">
+<table>
+<caption>Heterogeneity under the strict full-exit scenario,
+2025</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Group</th>
+<th style="text-align: right;">Cities</th>
+<th style="text-align: right;">Mean gap</th>
+<th style="text-align: right;">Mean gap/GDP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4" style="text-align: left;"><em>Panel A. Region</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">Northeast</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">0.55%</td>
+</tr>
+<tr>
+<td style="text-align: left;">East</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">1.51</td>
+<td style="text-align: right;">1.85%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Central</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">0.71</td>
+<td style="text-align: right;">1.95%</td>
+</tr>
+<tr>
+<td style="text-align: left;">West</td>
+<td style="text-align: right;">131</td>
+<td style="text-align: right;">0.43</td>
+<td style="text-align: right;">1.83%</td>
+</tr>
+<tr>
+<td colspan="4" style="text-align: left;"><em>Panel B. Fiscal–debt
+archetype</em></td>
+</tr>
+<tr>
+<td style="text-align: left;">A: strong fiscal, low debt</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">0.15</td>
+<td style="text-align: right;">0.36%</td>
+</tr>
+<tr>
+<td style="text-align: left;">B: strong fiscal, high debt</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">2.06</td>
+<td style="text-align: right;">2.65%</td>
+</tr>
+<tr>
+<td style="text-align: left;">C: weak fiscal, low debt</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">0.38%</td>
+</tr>
+<tr>
+<td style="text-align: left;">D: weak fiscal, high debt</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">2.49%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Mean gap is reported in RMB billion. Mean gap/GDP is
+the city-average ratio. Fiscal–debt archetypes are based on pre-stress
+fiscal capacity and LGFV exposure. East, central, west, and northeast
+follow the standard four-region classification.</p>
+</div>
+<h1 id="city-profiles-within-regions">City profiles within regions</h1>
+<p>Regional averages provide a useful first map but can hide important
+within-region variation. This section therefore examines two
+illustrative cities in each major region. The cases are selected to
+contrast scale and absorption within a region; they are not
+statistically representative city case studies, and their modeled
+quantities are not observations of realized distress. Table <a
+href="#tab:city-profiles" data-reference-type="ref"
+data-reference="tab:city-profiles">6</a> reports the core 2025
+strict-scenario quantities. The figures should be interpreted in the
+stress-test accounting units: observed public-bond maturities determine
+the shock, the scenario refinancing rate determines the initial gap, and
+the absorption hierarchy allocates the gap among buffers, limited
+support, flexible adjustment, and a residual restructuring need.</p>
+<div id="tab:city-profiles">
+<table>
+<caption>Illustrative city profiles under the strict full-exit scenario,
+2025</caption>
+<tbody>
+<tr>
+<td style="text-align: left;">Region</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: right;">Type</td>
+<td style="text-align: right;">Maturity</td>
+<td style="text-align: right;">Gap</td>
+<td style="text-align: right;">Gap/GDP</td>
+<td style="text-align: right;">Refi.</td>
+<td style="text-align: right;">Land</td>
+<td style="text-align: right;">Residual</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">(RMB bn)</td>
+<td style="text-align: right;">(RMB bn)</td>
+<td style="text-align: right;">(%)</td>
+<td style="text-align: right;">(%)</td>
+<td style="text-align: right;">ratio</td>
+<td style="text-align: right;">(RMB bn)</td>
+</tr>
+<tr>
+<td style="text-align: left;">East</td>
+<td style="text-align: left;">Tianjin</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">123.3</td>
+<td style="text-align: right;">90.4</td>
+<td style="text-align: right;">5.1%</td>
+<td style="text-align: right;">26.7%</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Huzhou</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">73.2</td>
+<td style="text-align: right;">67.4</td>
+<td style="text-align: right;">15.2%</td>
+<td style="text-align: right;">8.0%</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">34.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Central</td>
+<td style="text-align: left;">Changsha</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">64.0</td>
+<td style="text-align: right;">41.3</td>
+<td style="text-align: right;">2.6%</td>
+<td style="text-align: right;">35.5%</td>
+<td style="text-align: right;">1.20</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Taiyuan</td>
+<td style="text-align: right;">A</td>
+<td style="text-align: right;">20.9</td>
+<td style="text-align: right;">12.4</td>
+<td style="text-align: right;">2.0%</td>
+<td style="text-align: right;">40.6%</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">West</td>
+<td style="text-align: left;">Chongqing</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">211.4</td>
+<td style="text-align: right;">151.7</td>
+<td style="text-align: right;">4.6%</td>
+<td style="text-align: right;">28.2%</td>
+<td style="text-align: right;">1.01</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Kunming</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">78.9</td>
+<td style="text-align: right;">52.7</td>
+<td style="text-align: right;">6.2%</td>
+<td style="text-align: right;">33.2%</td>
+<td style="text-align: right;">1.66</td>
+<td style="text-align: right;">13.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Northeast</td>
+<td style="text-align: left;">Changchun</td>
+<td style="text-align: right;">B</td>
+<td style="text-align: right;">26.4</td>
+<td style="text-align: right;">16.2</td>
+<td style="text-align: right;">2.1%</td>
+<td style="text-align: right;">38.5%</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Harbin</td>
+<td style="text-align: right;">A</td>
+<td style="text-align: right;">9.3</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">1.0%</td>
+<td style="text-align: right;">36.9%</td>
+<td style="text-align: right;">0.57</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Type A is strong fiscal capacity/low LGFV exposure;
+type B is strong fiscal capacity/high LGFV exposure. The land ratio is
+the model’s land-dependence measure, not a share of freely disposable
+fiscal resources. The cases are chosen to contrast scale and absorption
+mechanisms within each region; they are not a representative sample or a
+ranking of actual fiscal conditions.</p>
+</div>
+<h2
+id="eastern-cities-large-maturity-scale-versus-concentrated-fragility">Eastern
+cities: large maturity scale versus concentrated fragility</h2>
+<p>The eastern cases illustrate why a regional label is insufficient.
+Tianjin has RMB 123.3 billion of observed 2025 public LGFV bond
+maturities and a strict-scenario gap of RMB 90.4 billion, equivalent to
+5.1 percent of modeled GDP. The assumed market refinancing rate is 26.7
+percent. Yet the stress-test hierarchy absorbs the entire gap through
+the modeled buffer component, leaving no residual restructuring need.
+This result does not establish that Tianjin can freely deploy the
+calculated buffer; it shows only that, under the paper’s narrow resource
+definition and protection floor, maturity scale alone does not produce a
+residual gap.</p>
+<p>Huzhou provides the contrasting case. Its observed maturity is lower
+at RMB 73.2 billion, but its strict-scenario refinancing rate is only
+8.0 percent and the resulting RMB 67.4 billion gap equals 15.2 percent
+of modeled GDP. The model assigns RMB 26.4 billion to budget buffers,
+RMB 6.3 billion to limited support, and only RMB 0.6 billion to flexible
+expenditure, leaving RMB 34.1 billion as a residual restructuring need.
+Huzhou is one of the two cities that crosses the paper’s fiscal-cliff
+threshold in 2025. The contrast with Tianjin illustrates the paper’s
+central point: a smaller maturity wall can be more difficult to absorb
+when refinancing capacity and available buffers are limited.</p>
+<p>For context, the broad east also includes cities with even larger
+absolute maturity schedules. Nanjing’s strict-scenario gap is RMB 153.4
+billion, the largest illustrative eastern value in the full city output.
+However, the fiscal-buffer fields required for the decomposition are
+incomplete for that observation, so we do not use it as an absorption
+case. Reporting this limitation is important: the maturity schedule is
+most complete for public bonds, while some fiscal components remain
+unevenly observed or imputed.</p>
+<h2
+id="central-cities-provincial-capital-scale-and-a-lower-debt-comparison">Central
+cities: provincial-capital scale and a lower-debt comparison</h2>
+<p>The central cases are Changsha and Taiyuan. Changsha has RMB 64.0
+billion in observed maturities and a RMB 41.3 billion strict-scenario
+gap, equal to 2.6 percent of GDP. It is classified as type B, with high
+LGFV exposure but stronger fiscal capacity in the pre-stress typology.
+Under the model, its buffer capacity absorbs the entire measured gap. In
+contrast, Taiyuan is classified as type A, with lower LGFV exposure. Its
+RMB 20.9 billion maturity schedule yields a RMB 12.4 billion gap, or 2.0
+percent of GDP, which is also fully absorbed by the modeled buffer.</p>
+<p>The comparison does not imply that Changsha and Taiyuan face
+identical policy problems. Changsha’s land-dependence ratio is higher,
+at 1.20 versus 0.85, and its maturity scale is more than three times as
+large. The result instead shows a basic accounting principle: a higher
+maturity burden does not necessarily translate into a residual gap when
+the scenario assigns sufficient buffer capacity. In a more restrictive
+liquidity or earmarking assumption, Changsha’s result would become more
+sensitive than Taiyuan’s. The city pair therefore underscores why the
+paper reports multiple scenarios rather than a single deterministic
+forecast.</p>
+<h2
+id="western-cities-aggregate-scale-and-land-linked-residual-pressure">Western
+cities: aggregate scale and land-linked residual pressure</h2>
+<p>The western cases distinguish scale from fiscal incidence. Chongqing
+has the largest illustrative 2025 maturity schedule in the sample table,
+RMB 211.4 billion, and a strict-scenario financing gap of RMB 151.7
+billion, equal to 4.6 percent of GDP. The implied refinancing rate is
+28.2 percent. In the paper’s accounting, the estimated budget buffer
+absorbs the full measured gap. The result should not be interpreted as
+an assertion that a single pool of liquid fiscal resources exists; it
+indicates that a large absolute maturity burden can be accommodated in
+the model when the city is assigned a large fiscal-resource base.</p>
+<p>Kunming provides a different pattern. Its maturity schedule is RMB
+78.9 billion and its strict gap is RMB 52.7 billion, or 6.2 percent of
+GDP. Its land-dependence ratio, 1.66, is the highest among the eight
+illustrative cases. The model applies RMB 30.9 billion of budget-buffer
+absorption, RMB 7.0 billion of limited support, and RMB 1.5 billion of
+flexible-expenditure adjustment, leaving RMB 13.3 billion as a residual
+restructuring need. This profile is consistent with the paper’s
+aggregate land-finance result: the risk is not merely the initial gap,
+but the limited replacement of land-linked fiscal resources once a
+project-finance system is disrupted.</p>
+<h2
+id="northeastern-cities-smaller-maturity-walls-and-heterogeneous-fiscal-bases">Northeastern
+cities: smaller maturity walls and heterogeneous fiscal bases</h2>
+<p>Northeastern cities have the smallest average maturity gaps in the
+regional table, but the within-region contrast remains informative.
+Changchun has RMB 26.4 billion of maturities and a RMB 16.2 billion
+strict-scenario gap, equal to 2.1 percent of GDP. It is classified as
+type B because its LGFV exposure is above the median despite relatively
+strong fiscal capacity under the constructed index. Harbin, classified
+as type A, has RMB 9.3 billion of maturities and a RMB 5.9 billion gap,
+or 1.0 percent of GDP. Both city gaps are absorbed by the modeled buffer
+channel.</p>
+<p>The result should not be read as evidence that northeastern fiscal
+adjustment is trivial. The regional average gap is smaller partly
+because public-bond maturity schedules are smaller. The model does not
+observe all bank loans, nonstandard financing, or project arrears, and
+it does not claim that a city with a zero residual has no economic or
+demographic constraint. Rather, the cases show that the specific
+public-bond rollover channel does not mechanically place every
+northeastern city above the paper’s threshold. This is an important
+corrective to a simple geographic narrative.</p>
+<figure id="fig:city-profiles" data-latex-placement="t">
+<span class="image placeholder"
+data-original-image-src="fig6_city_profiles.pdf"
+data-original-image-title="" width=".94\textwidth"></span>
+<div class="minipage">
+<p><em>Notes:</em> The eight cities are illustrative cases selected to
+contrast maturity scale and absorption mechanisms within the four
+standard macro-regions. Amounts are RMB billion. The residual is a
+modeled restructuring need after the stated absorption hierarchy; it is
+not a forecast of default.</p>
+</div>
+<figcaption>Contrasting city profiles under the strict full-exit
+scenario, 2025</figcaption>
+</figure>
+<h1
+id="additional-findings-adjustment-channels-and-residual-fiscal-space">Additional
+findings: adjustment channels and residual fiscal space</h1>
+<h2 id="land-dependence-and-debt-service-crowding">Land dependence and
+debt-service crowding</h2>
+<p>Figure <a href="#fig:channels" data-reference-type="ref"
+data-reference="fig:channels">4</a> extends the regional analysis in two
+directions. The left panel groups cities by high or low land dependence
+and transfer dependence. Under strict exit, the high-land/low-transfer
+group has an average financing gap of RMB 161.2 billion and an average
+residual of RMB 10.7 billion. By comparison, the high-land/high-transfer
+group has a smaller average gap of RMB 46.9 billion and no average
+residual in the reported 2025 scenario. The difference illustrates that
+land reliance alone is not sufficient to create a residual problem. What
+matters is the joint configuration of revenue exposure and the
+availability of alternative fiscal buffers.</p>
+<p>The right panel relates debt-interest expenditure to the share of
+expenditure classified as flexible. It should not be read as a causal
+crowding-out regression. It is an accounting diagnostic: cities with
+high debt-service proxies and low flexible-expenditure shares have less
+room to absorb a refinancing shock through project reprioritization. The
+illustrative cases reinforce the point. Chongqing’s flexible-expenditure
+share is comparatively large in levels, but its maturity wall is also
+large; Kunming combines a meaningful maturity burden with a smaller
+flexible-expenditure margin and therefore retains a residual after the
+stress hierarchy is applied. The result suggests that an exit policy
+should distinguish a city that needs an orderly market rollover from a
+city that needs restructuring support because its project-expenditure
+margin is limited.</p>
+<figure id="fig:channels" data-latex-placement="t">
+<embed src="./figures/fig7_adjustment_channels_revised.pdf" />
+<div class="minipage">
+<p><em>Notes:</em> Left panel: city-average financing gaps and residual
+gaps by land- and transfer-dependence groups in 2025. Right panel: a
+descriptive cross-section of the debt-interest proxy and flexible
+expenditure share. Marked cities are the illustrative city cases.
+Neither panel is a causal estimate.</p>
+</div>
+<figcaption>Land/transfer dependence and adjustment capacity under
+strict exit</figcaption>
+</figure>
+<h2 id="a-maturity-wall-need-not-become-a-general-budget-cliff">A
+maturity wall need not become a general budget cliff</h2>
+<p>The second additional finding concerns the absorption margin. In the
+strict 2025 scenario, the aggregate financing gap is RMB 2.51 trillion,
+but the simulated residual restructuring need is RMB 0.058 trillion, or
+2.3 percent of the gap. Two of 337 cities cross the fiscal-cliff
+threshold. The same calculation produces no cliff cities in the orderly
+and benchmark scenarios. Figure <a href="#fig:budget"
+data-reference-type="ref" data-reference="fig:budget">5</a> shows why:
+under the model’s hierarchy, a substantial share of the gap is assigned
+to existing budget-buffer capacity before flexible-expenditure
+compression or residual restructuring is invoked.</p>
+<p>This is a conditional finding, not reassurance by assertion. The
+buffer is a modeled capacity derived from fiscal resources after a
+narrow protected expenditure floor; it is not cash on hand, and it may
+be unavailable because of earmarking, liquidity, project commitments, or
+legal restrictions. It is useful precisely because it identifies the
+critical assumption. If fiscal buffers cannot be mobilized at the
+calibrated rate, or if non-bond liabilities mature faster than public
+bonds imply, residual gaps rise materially. A ten-percentage-point
+reduction in assumed refinancing capacity raises the aggregate
+benchmark-exit gap from RMB 3.87 trillion to RMB 5.92 trillion in the
+sensitivity calculations.</p>
+<p>Table <a href="#tab:city-absorption" data-reference-type="ref"
+data-reference="tab:city-absorption">7</a> shows the same mechanism at
+the city level. For Tianjin, Changsha, Taiyuan, Chongqing, Changchun,
+and Harbin, the strict-scenario gap is fully allocated to the modeled
+buffer channel. For Huzhou and Kunming, buffer and support components
+leave positive residuals. These rows are not evidence that one city has
+more “cash” than another. They are a transparent accounting
+decomposition under common rules, which helps distinguish the scale of
+the initial financing gap from the constrained capacity to absorb
+it.</p>
+<div id="tab:city-absorption">
+<table>
+<caption>Illustrative city-level financing-gap absorption, strict
+scenario, 2025</caption>
+<tbody>
+<tr>
+<td style="text-align: left;">Region</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: right;">Gap</td>
+<td style="text-align: right;">Buffer</td>
+<td style="text-align: right;">Support</td>
+<td style="text-align: right;">Flexible</td>
+<td style="text-align: right;">Residual</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td colspan="5" style="text-align: center;">RMB bn, strict 2025
+scenario</td>
+</tr>
+<tr>
+<td style="text-align: left;">East</td>
+<td style="text-align: left;">Tianjin</td>
+<td style="text-align: right;">90.4</td>
+<td style="text-align: right;">90.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Huzhou</td>
+<td style="text-align: right;">67.4</td>
+<td style="text-align: right;">26.4</td>
+<td style="text-align: right;">6.3</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">34.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Central</td>
+<td style="text-align: left;">Changsha</td>
+<td style="text-align: right;">41.3</td>
+<td style="text-align: right;">41.3</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Taiyuan</td>
+<td style="text-align: right;">12.4</td>
+<td style="text-align: right;">12.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">West</td>
+<td style="text-align: left;">Chongqing</td>
+<td style="text-align: right;">151.7</td>
+<td style="text-align: right;">151.7</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Kunming</td>
+<td style="text-align: right;">52.7</td>
+<td style="text-align: right;">30.9</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">13.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Northeast</td>
+<td style="text-align: left;">Changchun</td>
+<td style="text-align: right;">16.2</td>
+<td style="text-align: right;">16.2</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Harbin</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">0.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tablenotes">
+<p><em>Notes:</em> Buffer, support, flexible, and residual are the
+components of equation <a href="#eq:waterfall"
+data-reference-type="eqref"
+data-reference="eq:waterfall">[eq:waterfall]</a>. The decomposition is
+scenario accounting, not a realized financing plan. A zero residual does
+not imply the absence of liquidity, earmarking, or non-bond debt
+risk.</p>
+</div>
+<figure id="fig:budget" data-latex-placement="t">
+<embed src="./figures/fig8_budget_capacity (1).pdf" />
+<div class="minipage">
+<p><em>Notes:</em> The left panel reports the median city-level residual
+fiscal-capacity proxy after the protected expenditure floor. The right
+panel reports aggregate residual restructuring need. The capacity proxy
+is not a measure of actual compensation, bonuses, benefits, or cash
+balances.</p>
+</div>
+<figcaption>Modeled residual fiscal capacity and restructuring need
+across scenarios, 2025</figcaption>
+</figure>
+<h2
+id="residual-fiscal-space-is-not-a-personnel-compensation-measure">Residual
+fiscal space is not a personnel-compensation measure</h2>
+<p>The residual-budget analysis yields a related caution. The median
+strict-scenario residual capacity is RMB 35.8 billion in 2025, and 0.3
+percent of cities have zero measured capacity. This should <em>not</em>
+be interpreted as evidence about salary increases, bonuses, allowances,
+or any specific category of public-sector treatment. It only says that,
+under the narrow accounting definition in equation <a
+href="#eq:capacity" data-reference-type="eqref"
+data-reference="eq:capacity">[eq:capacity]</a>, the simulation does not
+exhaust all non-core budget resources for most cities. That margin can
+be illusory when funds are earmarked, when the fiscal calendar creates
+liquidity mismatches, or when unobserved obligations are large.</p>
+<p>The appropriate interpretation is therefore comparative. Cities with
+a sharply declining residual-capacity proxy under strict exit have less
+modeled room for non-core budget reallocation than otherwise similar
+cities. The result is useful for identifying where an LGFV transition
+may force difficult project or budget choices. It cannot identify the
+level or distribution of public-sector compensation, and it should not
+be used to infer whether any city or unit can or should provide extra
+treatment beyond basic obligations.</p>
+<h1 id="sensitivity-limitations-and-policy-interpretation">Sensitivity,
+limitations, and policy interpretation</h1>
+<h2 id="sensitivity">Sensitivity</h2>
+<p>The central patterns survive several transparent sensitivity checks.
+Restricting attention to the top 25, 33, or 50 percent of cities by debt
+exposure concentrates the gap but does not overturn the ranking of
+scenarios. Under strict exit, the top quartile of exposure accounts for
+a simulated RMB 5.07 trillion aggregate financing gap across the
+forecast years, while the top half accounts for RMB 6.53 trillion.
+Varying the assumed refinancing rate by ten percentage points changes
+the aggregate gap substantially, confirming that rollover capacity is
+the main uncertainty rather than a secondary detail.</p>
+<p>The differentiated-support scenario is also informative. It reduces
+the 2025 residual gap modestly relative to benchmark exit, from RMB
+0.029 trillion to RMB 0.028 trillion, while the total gap remains higher
+because the support calibration combines heterogeneous refinancing
+assumptions with limited support. This is not a policy recommendation to
+expand transfers indiscriminately. It demonstrates that support rules
+matter only after maturity profiles, fiscal capacity, and use
+restrictions are specified. In particular, a debt-proportional support
+allocation can direct resources toward cities with large nominal
+maturities while overlooking a smaller city with a higher gap relative
+to GDP or a positive residual after flexible expenditure is
+exhausted.</p>
+<h2 id="limitations">Limitations</h2>
+<p>Three limitations are important. First, the exercise observes public
+LGFV bond maturities, not the full universe of loans, trust products,
+supplier arrears, or contingent liabilities. The stress test is
+therefore conservative with respect to measured maturities but may omit
+other sources of pressure. Second, several fiscal items are harmonized
+proxies, and coverage varies across fiscal classifications. We retain
+the distinction between observed and model-ready panels, but the results
+should be viewed as an analytical dataset rather than an official fiscal
+audit. Third, the historical regression relationships have low
+explanatory power and are not causal. The paper’s contribution is
+transparency about a plausible fiscal adjustment mechanism, not a claim
+that a particular scenario will materialize exactly.</p>
+<p>A fourth limitation is especially relevant for the city profiles. The
+cases are generated from the same city-level dataset and scenario rules
+as the national results. They are intended to make the sources of
+heterogeneity concrete, not to offer a comprehensive fiscal diagnosis of
+Tianjin, Huzhou, Changsha, Taiyuan, Chongqing, Kunming, Changchun, or
+Harbin. Cities may have policy commitments, assets, contingent support,
+or financing channels that are not fully captured by public-bond data
+and functional fiscal accounts.</p>
+<h2 id="policy-interpretation">Policy interpretation</h2>
+<p>The results suggest three principles for designing LGFV exit. First,
+policy should distinguish maturity scale from fiscal fragility. Large
+coastal and eastern cities require orderly rollover and market
+transition because they account for large absolute maturities. Cities
+with high land dependence and weak transfer buffers require attention
+because their fiscal incidence is less diversified. Second, fiscal
+support should be conditional and targeted toward residual restructuring
+needs rather than mechanically proportional to debt stocks. Third,
+protecting basic services while identifying genuinely adjustable project
+expenditure is preferable to treating all local spending as equally
+compressible.</p>
+<p>A fourth principle follows from the city cases. The same regional
+policy instrument will not fit every city. A Chongqing-type scale
+problem calls for a credible market-transition path and monitoring of a
+large maturity wall. A Huzhou- or Kunming-type residual problem calls
+for attention to the interaction between land revenue, refinancing
+capacity, and fiscal buffers. A Changchun- or Harbin-type smaller
+observed maturity problem still requires monitoring, but the public-bond
+channel alone does not generate the same modeled pressure. The policy
+question is therefore not whether every city can be made identical after
+exit, but whether adjustment is allocated to channels that preserve
+essential public services and prevent a localized maturity shock from
+becoming a broader fiscal contraction.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>A full exit of LGFVs from government financing would not simply shift
+a corporate debt stock onto public budgets. It would force a
+reallocation among refinancing, fiscal buffers, transfers, land-related
+revenues, project expenditure, and restructuring. Using a 337-city panel
+and a public-bond maturity schedule, this paper shows that the resulting
+pressure is highly uneven. The largest absolute gaps occur where debt
+scale and maturities are large; the most fragile fiscal configuration is
+high land dependence combined with weak transfer buffers. The simulated
+revenue adjustment falls primarily on government-fund and land-transfer
+channels, while the model’s protection of core services limits direct
+compression of basic expenditure. The regional and city profiles sharpen
+that conclusion. Eastern and coastal cities dominate the maturity wall
+in aggregate, but high nominal exposure is not equivalent to weak fiscal
+absorption. The illustrative city cases show that strict-scenario gaps
+can be fully absorbed in the model where buffers are large, whereas
+smaller maturity schedules can leave residual restructuring needs where
+refinancing capacity and fiscal margins are constrained. The paper’s
+main claim is deliberately narrow: these are scenario-dependent
+stress-test results, not realized policy effects or forecasts of
+statutory default. But the exercise clarifies the fiscal arithmetic that
+a full LGFV exit must confront. A credible transition requires more than
+reducing implicit guarantees; it requires a differentiated mechanism for
+managing maturity walls, land-finance dependence, and the fiscal
+capacity to absorb adjustment without eroding essential public
+services.</p>
+<div class="thebibliography">
+<p><span>99</span></p>
+<p>W. Kong, S. S. Sharma, X.-X. Zhao, and Y.-B. Shi, “The rescue effect
+of local government financing vehicles on real estate enterprises in
+China,” <em>Pacific-Basin Finance Journal</em>, vol. 91, p. 102744,
+2025.</p>
+<p>W. Liu, L. Ma, X. Wang, and H. Yi, “Interlocal learning mechanisms
+and policy diffusion: The case of new energy vehicles finance in Chinese
+cities,” <em>Policy Studies Journal</em>, vol. 53, no. 1, pp. 49–68,
+2025.</p>
+<p>L. Wang, C. Wang, J. Chen, and J. Chang, “The hidden crowding out
+effect: How does local government implicit debt pressure influence
+enterprise productivity in China?” <em>Managerial and Decision
+Economics</em>, vol. 46, no. 1, pp. 502–514, 2025.</p>
+<p>L. Pan, K. Huang, and Z. Wang, “Local government debt and corporate
+stock liquidity: Evidence from China,” <em>International Review of
+Financial Analysis</em>, vol. 104, p. 104318, 2025.</p>
+<p>Z. Xiao and H. Zhang, “Real estate market regulation and local
+government debt risk,” <em>Finance Research Letters</em>, vol. 80,
+p. 107362, 2025.</p>
+<p>J. Jia, J. Chen, and Y. Yang, “Bond default of super-large real
+estate company and government debt risk,” <em>International Review of
+Financial Analysis</em>, vol. 103, p. 104158, 2025.</p>
+<p>J. C. Oi, J. M. Luo, and Y. Xu, “A perfect storm: Fiscal discipline,
+COVID, and local government debt in China,” <em>The China Journal</em>,
+vol. 93, no. 1, pp. 76–111, 2025.</p>
+<p>Y. Wang, X. Wang, and X. Zheng, “Does local government debt
+replacement affect macroeconomics? Evidence from China,”
+<em>International Review of Financial Analysis</em>, vol. 103,
+p. 104208, 2025.</p>
+<p>D. Feng, Z. Lu, W. Tang, and Y. Zhang, “Geopolitical shock and local
+government debt risk,” <em>Finance Research Letters</em>, vol. 82,
+p. 107572, 2025.</p>
+<p>C. Wong, “Local government debt in China: The 2023 bailout and future
+prospects,” <em>The China Journal</em>, vol. 93, no. 1, pp. 112–135,
+2025.</p>
+<p>Z. Lin, X. Wang, and Z. Wang, “Local government debt and corporate
+fraud: Evidence from China,” <em>Emerging Markets Finance and
+Trade</em>, vol. 61, no. 6, pp. 1614–1629, 2025.</p>
+<p>Y. Wang and C. Feng, “Does local government debt replacement affect
+regional financial risk? Evidence from China,” <em>Applied Economics
+Letters</em>, pp. 1–8, 2025.</p>
+<p>Z. Lei, P. Li, and Y. Wang, “The effect of compound heat-drought risk
+on municipal corporate bonds pricing: Evidence from China,” <em>The
+North American Journal of Economics and Finance</em>, vol. 79,
+p. 102462, 2025.</p>
+<p>Y. Wang, F. Guo, and C. Guo, “The impact of local government debt
+replacement on corporate financing constraints: Evidence from China,”
+<em>Applied Economics</em>, pp. 1–18, 2025.</p>
+<p>Q. Zheng, W. Hao, and B. Lin, “Local government debt governance and
+carbon emissions in China,” <em>Environmental Impact Assessment
+Review</em>, vol. 115, p. 107991, 2025.</p>
+<p>M. Cao, K. Duan, and H. Ibrahim, “Constraining effects of local
+government debt on bank loan growth,” <em>Economic Analysis and
+Policy</em>, vol. 85, pp. 371–382, 2025.</p>
+<p>M. Duan, R. Du, and S. Ma, “Temporal hypergraph attentive transformer
+for regional financial risk prediction: Integrating risk contagion
+dynamics and temporal pattern mining,” <em>Alexandria Engineering
+Journal</em>, vol. 133, pp. 137–156, 2025.</p>
+<p>M. Liao, Z. Liu, and Y. Xu, “How fiscal rules affect the cyclicality
+of local government debt? Evidence from China,” <em>Empirical
+Economics</em>, vol. 69, no. 1, pp. 465–515, 2025.</p>
+<p>Y. Feng, F. Wu, and F. Zhang, “Turning land into assets: Local
+government borrowing through land assetization in China,” <em>Urban
+Geography</em>, vol. 46, no. 6, pp. 1303–1324, 2025.</p>
+<p>Y. Zhang and J. Kong, “The impact of local government debt governance
+on carbon emissions: Evidence from Chinese cities,” <em>Frontiers in
+Environmental Science</em>, vol. 13, p. 1613947, 2025.</p>
+<p>P. Zhang, J. Zheng, K. Tang, X. Ge, and G. Liu, “The price of
+implicit guarantee: Evidence from municipal bond markets in China,”
+<em>China Economic Journal</em>, vol. 18, no. 1, pp. 106–130, 2025.</p>
+<p>J. Luo and J. Li, “How does local government debt governance affect
+corporate credit mismatches? Evidence from implementing the New Budget
+Law,” <em>Finance Research Letters</em>, vol. 73, p. 106576, 2025.</p>
+<p>H. Ye, Y. Wang, and X. Yang, “Local government debts and corporate
+bond spreads: Evidence from China,” <em>Economic and Political
+Studies</em>, vol. 13, no. 1, pp. 16–42, 2025.</p>
+</div>
+<h1 id="data-construction-matching-and-city-profile-protocol">Data
+construction, matching, and city-profile protocol</h1>
+<p>This appendix records the main construction choices behind the
+stress-test dataset. The fiscal panel is assembled at the
+prefecture-level city-year level. Annual fiscal workbooks are harmonized
+into common general-budget, government-fund, land-transfer,
+transfer-revenue, and functional-expenditure fields. Variables are
+retained as observed whenever possible; the model-ready panel records
+when a compatible value is constructed from a reported aggregate or an
+accounting identity. The principal examples are non-tax revenue, which
+is computed as general-budget revenue less tax revenue when the directly
+reported non-tax item is unavailable, and the transfer proxy, which is
+the positive difference between general-budget expenditure and
+general-budget revenue. These rules are transparent but should not be
+confused with a full official fiscal reconciliation. The public-bond
+module is constructed separately. Bond records are deduplicated using
+bond code, issuer, issuance date, maturity date, and issue size. Issuers
+located at county or county-level-city addresses are mapped to their
+prefecture-level city using an explicit administrative concordance.
+Provincial-level issuers are flagged rather than mechanically allocated
+to a city. For each city and year, the public-bond schedule aggregates
+issuance, maturity principal, coupon, term, and the concentration of
+maturities during 2025–2028. The maturity variable used in the stress
+test therefore contains only bonds with an observable maturity date. It
+is intentionally narrower than total interest-bearing LGFV debt, which
+is used only to classify exposure. The eight city profiles in Section 6
+are selected after the national results are obtained, using a
+within-region contrast protocol rather than a representativeness claim.
+In each standard macro-region, one city is chosen for a relatively large
+observed maturity wall or financing gap, and one for a contrasting
+absorption or residual-risk profile. This yields Tianjin and Huzhou in
+the east, Changsha and Taiyuan in the center, Chongqing and Kunming in
+the west, and Changchun and Harbin in the northeast. A city is not used
+as an absorption illustration when the necessary fiscal-buffer
+components are incomplete, even when its maturity gap is large. The
+profiles are thus explanatory examples of the model’s accounting logic
+and should not be interpreted as municipal fiscal audits.</p>
+<p>All monetary quantities in the city-profile tables are converted from
+the cleaned panel’s RMB 100 million unit into RMB billion. Ratios are
+calculated from the same city-year scenario record. The replication
+package retains the city-level forecast file, the cleaned fiscal–debt
+panel, the bond master, the city matching logs, and the table and figure
+data underlying the results reported here. The scenario procedure is
+implemented in four reproducible steps. First, the 2025–2028 public-bond
+maturity schedule is taken as the observed refinancing base. Second,
+each scenario applies a city-specific market refinancing rate that is
+bounded and recorded in the output. Third, the resulting gap is passed
+through the common hierarchy of budget-buffer capacity, limited
+upper-level support, flexible-expenditure adjustment, and residual
+restructuring need. Fourth, revenue and expenditure outcomes are
+reported as scenario comparisons relative to the orderly-exit benchmark.
+This sequence is designed to avoid treating the final residual as a
+default event or treating the entire LGFV balance sheet as an immediate
+budget obligation. Several measurement boundaries deserve emphasis. The
+land-dependence and transfer-dependence indicators are comparative
+fiscal ratios generated from the harmonized panel. They are not legal
+classifications of earmarked revenue. The residual fiscal-capacity
+measure is similarly a model quantity: it is the difference between a
+narrow fiscal-resource measure and the protected floor, truncated at
+zero. It does not establish cash availability, debt-servicing priority,
+or a city government’s authority to reallocate funds across budget
+accounts. The paper therefore uses these indicators to compare the
+stress-test mechanics across cities, not to make an administrative
+assessment of any local government’s fiscal compliance or compensation
+policy. The city-year panel is intentionally retained in two forms in
+the replication materials: an observed-only version and a model-ready
+version. The observed-only version preserves raw missingness. The
+model-ready version uses transparent compatibility rules and limited
+imputations for panel construction, with source and quality flags. The
+national charts and city-profile calculations use the model-ready
+version, while the data audit files document coverage, missing values,
+unmatched issuers, and bond-deduplication decisions. This design allows
+users to reproduce the paper’s scenarios, alter the refinancing
+assumptions, or restrict analysis to observed-only records without
+changing the conceptual accounting framework.</p>
+<h1 id="app:idealized_assumptions">Idealized Assumptions, Institutional
+Frictions, Public-Sector Compensation</h1>
+<p>The stress test is intentionally transparent, but this transparency
+requires a set of simplifying assumptions that are more idealized than
+the institutional environment in which local fiscal adjustment actually
+occurs. The framework treats the refinancing gap as an accounting
+pressure that can be allocated sequentially across modeled budget
+buffers, limited upper-level support, flexible expenditure adjustment,
+and residual restructuring need. This structure is useful because it
+makes the adjustment hierarchy explicit. However, it implicitly assumes
+that a nontrivial share of measured fiscal resources can be mobilized
+within the scenario horizon once core public services and debt-interest
+expenditure are protected. In practice, this assumption may be
+restrictive. Fiscal resources may be earmarked across budget accounts,
+tied to specific projects or transfer programs, subject to
+administrative approval, temporarily unavailable because of cash-flow
+timing, or politically difficult to reallocate. A city may therefore
+appear to possess positive modeled buffer capacity while facing a much
+narrower set of immediately deployable resources. Several other
+assumptions should be interpreted in the same spirit. First, the model
+uses publicly observed LGFV bond maturities as the refinancing base.
+This improves measurement transparency, but it does not capture the full
+timing and contractual structure of bank loans, trust products, supplier
+arrears, guarantees, leasing obligations, or other contingent
+liabilities. Second, the scenario design applies refinancing,
+land-revenue, transfer, and expenditure assumptions through common
+rules. Actual adjustment may instead be highly path dependent: a city
+with a weak land market may experience a sharper decline in
+land-transfer revenue than implied by the scenario, while another city
+may obtain temporary liquidity support through provincial coordination,
+asset transfers, policy-bank lending, debt swaps, or project
+restructuring. Third, the framework does not model feedback loops
+explicitly. A deterioration in LGFV refinancing conditions may weaken
+local investment, construction activity, land demand, and tax bases;
+these effects could in turn further reduce fiscal capacity and make
+subsequent refinancing more difficult. Conversely, credible
+restructuring arrangements or targeted support could improve market
+confidence and partially offset the initial shock.</p>
+<p>These limitations define a productive agenda for future work rather
+than invalidate the comparative logic of the present exercise. A more
+realistic framework could combine monthly or quarterly debt-maturity
+schedules with cash-balance information, account-level budget execution
+data, earmarking restrictions, and detailed information on the legal
+priority of different expenditure categories. It could also model local
+governments, LGFVs, banks, land markets, and upper-level fiscal
+authorities as jointly interacting balance sheets rather than as
+separate adjustment channels. Such a framework would allow refinancing
+conditions, land prices, transfers, and expenditure commitments to
+evolve endogenously over time. In particular, future research could
+distinguish between a city that has sufficient aggregate fiscal
+resources but faces a short-run liquidity mismatch and a city whose
+long-run fiscal capacity is genuinely insufficient even after
+restructuring and support are considered. The same distinction is
+important when interpreting the possible consequences of financing
+stress for workers within the public sector. The residual
+fiscal-capacity measure in this paper is not a wage, payroll, benefit,
+or personnel-compensation variable. It cannot establish whether civil
+servants, public-institution employees, local public-service workers, or
+LGFV employees will experience salary reductions, delayed payments,
+changes in bonuses, or changes in employment conditions. Compensation is
+governed by institutional rules that are not observed in the city-level
+fiscal panel, including staffing quotas, payroll classifications,
+central and provincial wage policies, earmarked transfers, departmental
+budget arrangements, and the distinction between general-government
+units, public institutions, and state-owned or LGFV-affiliated
+enterprises.</p>
+<p>Nevertheless, government-financing stress may affect public-sector
+compensation through several plausible fiscal channels. Basic wages and
+statutory employer contributions are likely to be more rigid than
+discretionary spending in the short run, especially where local
+governments seek to preserve essential public services and
+administrative continuity. Adjustment may therefore occur first through
+margins that are less legally or politically protected, such as delayed
+recruitment, staff attrition, reduced temporary hiring, lower
+performance-related compensation, smaller local allowances, deferred
+reimbursements, reduced welfare supplements, or a reallocation of
+personnel toward core service functions. These channels need not imply
+an immediate reduction in nominal base pay. Rather, they suggest that
+the incidence of fiscal stress may appear through slower compensation
+growth, weaker bonus pools, fewer promotion or hiring opportunities,
+greater work intensity, or uneven treatment across departments and
+localities. The exposure may also differ sharply across groups commonly
+described as “within the system.” Civil servants whose compensation is
+financed through the general budget may be relatively insulated where
+payroll obligations are prioritized. Employees in public institutions,
+including schools, hospitals, and other service providers, may face
+different pressures because their funding can combine general-budget
+appropriations, earmarked transfers, service revenue, and
+project-specific funds. Employees of LGFVs and related local state-owned
+entities may be more directly exposed to refinancing conditions because
+their compensation and employment stability depend more closely on
+enterprise cash flow, asset operations, project payments, and access to
+market funding. Treating these groups as a single homogeneous category
+would therefore obscure potentially important differences in the
+transmission of local financing stress. A more complete empirical
+analysis of compensation effects would require administrative payroll
+records, staffing and recruitment data, information on performance pay
+and allowances, social-insurance contribution records, and balance-sheet
+data for local public institutions and LGFVs. Linking such information
+to city-level maturity schedules and refinancing shocks could help
+distinguish whether fiscal stress primarily affects wage levels, wage
+growth, employment margins, benefit provision, or payment timing. The
+present paper does not make such claims. Its narrower contribution is to
+identify where a transition away from implicit LGFV guarantees may
+compress modeled fiscal room and thereby create conditions under which
+personnel-related adjustment becomes more likely to be considered
+alongside project reprioritization, restructuring, and targeted fiscal
+support.</p>
+</body>
+</html>
